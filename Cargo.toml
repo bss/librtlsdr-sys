@@ -1,8 +1,8 @@
 [package]
-name = "rtlsdr-sys"
+name = "librtlsdr-sys"
 version = "0.1.0"
 authors = ["Bo Stendal Sorensen <bo@stendal-sorensen.net>"]
-description = "FFI bindings for rtlsdr"
+description = "FFI bindings for librtlsdr"
 license = "MIT"
 edition = "2018"
 homepage = "https://github.com/bss/rtlsdr-sys"

@@ -1,25 +1,24 @@
-# rtlsdr rust bindings
-This crate provides bindings for rtlsdr for linkage. Following the `-sys` convention it does not provide at "rusty" API on top - just pure C bindings.
+# librtlsdr rust bindings
+This crate provides bindings for `librtlsdr` for linkage. Following the `-sys` convention it does not provide at "rusty" API on top - just pure C bindings.
 
 ## Usage
-Add `rtlsdr-sys` as a dependency in `Cargo.toml`:
+Add `librtlsdr-sys` as a dependency in `Cargo.toml`:
 
 ```toml
 [dependencies]
-rtlsdr-sys = "0.1"
+librtlsdr-sys = "0.1"
 ```
 
-Import the `rtlsdr_sys` crate and use the functions as they're defined in the native `rtlsdr`
-library. See additional documentation below for more information.
+Import the `librtlsdr_sys` crate and use the functions as they're defined in the native `librtlsdr` library. See additional documentation below for more information.
 
 Rust pre-2018
 ```rust
-extern crate rtlsdr_sys;
+extern crate librtlsdr_sys;
 ```
 
 Rust 2018
 ```rust
-use rtlsdr_sys;
+use librtlsdr_sys;
 ```
 
 ### Help
