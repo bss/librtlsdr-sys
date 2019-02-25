@@ -1,0 +1,20 @@
+[package]
+name = "rtlsdr-sys"
+version = "0.1.0"
+authors = ["Bo Stendal Sorensen <bo@stendal-sorensen.net>"]
+description = "FFI bindings for rtlsdr"
+license = "MIT"
+edition = "2018"
+homepage = "https://github.com/bss/rtlsdr-sys"
+repository = "https://github.com/bss/rtlsdr-sys"
+readme = "README.md"
+keywords = ["rtlsdr", "hardware", "bindings", "radio"]
+
+build = "build.rs"
+links = "librtlsdr"
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.47.2"
+pkg-config = "0.3.14"
